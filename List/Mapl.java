@@ -14,6 +14,9 @@ public class Mapl {
            // System.out.println(e.getValue());
         }
         //
+        //map interface->implement hashMap->extend by LinkedHashmap 
+        //map interface ->extend sortedMap(interface hota hai)->implement treeMap()
+
     
         Set<Integer> key=map.keySet();
         for(Integer k:key){
