@@ -3,9 +3,13 @@
 //imutability, thread safety, performance, usgaes
 public class stringl {
     public static void main(String[] args) {
-        // char ch[]={'m','o','h','a','n'};
+         char ch[]={'m','o','h','a','n'};
         // ch[0]='a';
-        // String chs=new String(ch);
+        String chs=new String(ch);
+        //.substring()
+        //isBlan() also check for white space
+        //isEmpty()check whether lenght is zero or not
+        
         // char stch[]=chs.toCharArray();
         // System.out.println(stch);
         // System.out.println(ch);
@@ -24,7 +28,7 @@ public class stringl {
         // System.out.println(s1.length());
         // System.out.println(s1.replace('h', 'n'));
         // System.out.println(s1);
-
+        //valueOf()//return string input can be int, float, double
         // //string buffer
         // //mutable, performance slower than string builder
         // //
@@ -32,15 +36,22 @@ public class stringl {
         // StringBuffer sb1=new StringBuffer("buffer");
         // //sb1=sb1+"new";aise append nhi hota yaha;
         // sb1.append("new");
+        //append is not avilabele for String object
         // System.out.println(sb1);
         // //charAt(),deleteCharAt()
         //stringbuilder thread safe nhi hota hai
         StringBuffer sb1=new StringBuffer("hello");
+        //there no option to convert stringbuiffer to to charArray
+        
         System.out.println(sb1);
         sb1.append('c');
         System.out.println(sb1);
         System.out.println(sb1.charAt(0));
         //how to reverse string buffer
+        StringBuilder sbd=new StringBuilder("stringBuilder");
+        
+        
+
 
         //replace
         //delete

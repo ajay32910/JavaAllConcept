@@ -24,7 +24,7 @@ public class StringP {
         while(j>=0){
             if(str.charAt(j)>='a'&&str.charAt(j)<='z')
             {
-                ans+=str.charAt(j)-32;
+                ans+=(char)(str.charAt(j)+32);
             }
             ans+=str.charAt(j);
             j--;
