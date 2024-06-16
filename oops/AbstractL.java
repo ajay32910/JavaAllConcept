@@ -4,7 +4,9 @@ abstract class BikeA{
     //class which is extending abastract class have to implement all of his abstrast method
     // abstract can have static and final method also;
     //abstract class can have constructor
-    //abstract metod can't be private
+    //abstract method can't be private
+    //static metod can be private
+
     BikeA(){
         System.out.println("abstract class constructor");
     }

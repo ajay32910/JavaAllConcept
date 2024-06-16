@@ -11,6 +11,22 @@ class Animal{
     void supper(){
         System.out.println("this is use to call from child class");
     }
+    static int x=10;//class varibale
+    static final int y=10;//it value is final we can't change it
+     protected void funA(){
+        System.out.println("function in animal");//we can increase the visiblity of fun but can't decrease
+
+    }
+    static void funAs(){
+        System.out.println("static fun in Animal");
+        //we can also overide static method
+    }
+    static final void funASF(){
+        System.out.println("static and final method in animal");
+        //we are not allowed to overide final methods
+    }
+
+
 }
 class Dog extends Animal{
     Dog(){
@@ -28,6 +44,12 @@ class Dog extends Animal{
         super.supper();//call parent function
         
     }
+    //overide static method
+    static void funAs(){
+        System.out.println("static fun in Dog");
+    }
+
+
 }
 public class InheritanceL {
     public static void main(String[] args) {
@@ -41,6 +63,7 @@ public class InheritanceL {
         a1.move();
         a1.language();
         a1.supper();
+        
         
     }
 }
