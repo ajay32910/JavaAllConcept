@@ -44,9 +44,13 @@ class Dog extends Animal{
         super.supper();//call parent function
         
     }
-    //overide static method
+    //overide static method name is same but this is not we call overriding
     static void funAs(){
         System.out.println("static fun in Dog");
+    }
+    protected void funA(){
+        System.out.println("function in animal");//we can increase the visiblity of fun but can't decrease
+
     }
 
 
