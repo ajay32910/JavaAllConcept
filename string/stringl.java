@@ -47,6 +47,7 @@ public class stringl {
         sb1.append('c');
         System.out.println(sb1);
         System.out.println(sb1.charAt(0));
+        //setCharAt(i,'c')//use to set character in string buffer and string bulider
         //how to reverse string buffer
         StringBuilder sbd=new StringBuilder("stringBuilder");
         

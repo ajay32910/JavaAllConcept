@@ -21,7 +21,14 @@ public class SetL {
        tset.add(40);
        tset.add(1);
        tset.add(0);
+       tset.remove(0);
+       
+    
        System.out.println(tset);
+       Iterator<Integer>it=tset.iterator();
+       while(it.hasNext()){
+        System.out.println(it.next());
+       }
 
     }
 }
